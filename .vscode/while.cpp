@@ -55,6 +55,7 @@ int main(){
 
 
 //value is prime or not
+/*
 int main(){
     int a,i=2;
     cin>>a;
@@ -67,4 +68,76 @@ int main(){
         }
         i=i+1;
     }
+}*/
+
+
+//half reverse pyramid 
+/*
+int main(){
+    int a,i=1;
+    cin>>a;
+    while(i<=a){
+        int j=i;
+        while(j<=a){
+            cout<<"*";
+            j++;
+        }
+        cout<<endl;
+        i++;
+    }
+}*/
+
+
+//half pyramid
+/*
+int main(){
+    int a,i=1,count=1;
+    cin>>a;
+    while(i<a){
+        int j=1;
+        while(j<=i){
+            // cout<<count<<" ";
+            // count++;
+            cout<<" "<<i-j+1;
+            j++;
+        }
+        cout<<endl;
+        i++;
+    }
+    // while(i<=a){
+    //     int j=i;
+    //     while(j<=a){
+    //         cout<<a-j+1;
+    //         j++;
+    //     }
+    //     cout<<endl;
+    //     i++;
+    // }
+}*/
+
+
+
+
+
+int main(){
+    int num,i=1;
+    cin>>num;
+    char count='A';
+    while(i<=num){
+        int j=1;
+        while(j<=num){
+            // char ch='A'+j-1;
+            cout<<" "<<count;
+            count++;
+            // cout<<ch<<" ";
+            // cout<<" "<<ch;
+            j++;
+        }
+        cout<<endl;
+        i++;
+
+    }
 }
+
+
+
